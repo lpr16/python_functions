@@ -22,3 +22,15 @@ def drawSquare(n):
     for i in range(0,4):
         poli.forward(float(n))
         poli.left(90)
+
+ 
+### This function draws a rectangle of given sides (in pixels) ###
+### the first parameter is the horizontal lines' length ###
+
+def drawRectangle(a, b):
+    
+    for i in range(0, 2):
+        poli.forward(float(a))
+        poli.left(90)
+        poli.forward(float(b))
+        poli.left(90)
